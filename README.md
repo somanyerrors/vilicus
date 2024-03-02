@@ -32,13 +32,13 @@ Follow these steps to install and run Vilicus:
     Wait for Docker to pull the necessary images and start the services. This may take a while.
     
 
-    This will start the server and the application will be accessible at `localhost:5000` (or whatever port you've configured).
+    This will start the server, and the application will be accessible at `localhost:5000` (or whatever port you've configured).
 
 3. Visit the dashboard in your web browser.
 
 ### Optional SecurityTrails integration
 
-   The tool has the ability to automatically query the (https://securitytrails.com/) Securitytrails API once a domain has been added. If youwant too enable this feature, you have to rename the `env.example` to `.env` and insert your own API Key. It is also recommended to rebuild the container like so `docker-compose build --no-cache` 
+   The tool has the ability to automatically query the (https://securitytrails.com/) Securitytrails API once a domain has been added. If you want to enable this feature, you have to rename the `env.example` to `.env` and insert your own API Key. It is also recommended to rebuild the container like so `docker-compose build --no-cache` 
 
 <img width="1012" alt="Screenshot 2023-07-09 at 19 38 06" src="https://github.com/PatrikFehrenbach/vilicus/assets/9072595/9d527caa-5b25-4acb-9e29-1b6f28a94859">
 
@@ -49,7 +49,7 @@ Contributions are always welcome. If you find a bug or want to add a new feature
 
 ## License:
 
-This project is open-source and available under the [MIT License](https://github.com/PatrikFehrenbach/vilicus/blob/main/LICENSE).
+This open-source project is available under the [MIT License](https://github.com/PatrikFehrenbach/vilicus/blob/main/LICENSE).
 
 
 # Subdomain and Domain API
